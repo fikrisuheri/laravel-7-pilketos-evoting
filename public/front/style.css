@@ -1,0 +1,134 @@
+.title {
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.heading {
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #0574B9;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0574B9;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.judul {
+    display: inline-block;
+    padding-top: 0.32rem;
+    padding-bottom: 0.32rem;
+    margin-right: 1rem;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: inherit;
+    white-space: nowrap;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.spacer-bottom {
+    padding-bottom: 80px;
+}
+
+.spacer-top {
+    padding-top: 80px;
+}
+
+.tata-cara {
+    text-align: center;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    padding: 30px;
+    transition: 0.3s;
+    border-bottom: 3px solid transparent;
+    margin-bottom: 30px;
+}
+
+.ta-heading {
+    margin-bottom: 31px;
+    text-align: center;
+}
+
+.tata-cara h2 {
+    font-size: 22px;
+    margin: 20px 0 10px;
+    text-transform: capitalize;
+}
+
+.tata-cara p {
+    margin:0px;
+    padding-top: 10px;
+}
+
+.tata-cara:hover{
+    border-color: #227DC7;
+    transform: translateY(-5px);
+}
+
+.tatacara-icon {
+    width: 150px;
+    height: 100px;
+    margin: 10px auto;
+    line-height: 100px;
+    /* border-radius: 100%; */
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+}
+
+.datone {
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+
+.p-footer {
+    font: 400 0.875rem/1.5rem "Open Sans", sans-serif;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.judul:hover,
+.judul:focus {
+    text-decoration: none;
+}
+
+.bg-biru {
+    background-color: #0099ff
+}
+
+.bg-putih {
+    background-color: #fff
+}
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        margin-top: 0px;
+    }
+    .title {
+        font-size: 16px;
+    }
+    .subtitle {
+        font-size: 14px;
+    }
+    .heading,
+    .subheading {
+        text-align: center !important;
+    }
+    .btnvote {
+        justify-content: center !important;
+        display: flex !important;
+    }
+}
